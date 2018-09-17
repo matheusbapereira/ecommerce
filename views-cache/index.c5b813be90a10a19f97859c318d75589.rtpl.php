@@ -3,24 +3,23 @@
             <div class="block-slider block-slider4">
                 <ul class="" id="bxslider-home4">
                     <li>
-                        <img src="/res/site/img/h4-slide.png" alt="Slide">
-                        <div class="caption-group">
-                            <h2 class="caption title">
-                                iPhone <span class="primary">6 <strong>Plus</strong></span>
-                            </h2>
-                            <h4 class="caption subtitle">Dual SIM</h4>
-                            <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                        </div>
+                        <img src="/res/site/img/slide1.jpg" alt="Slide">
                     </li>
-                    <li><img src="/res/site/img/h4-slide2.png" alt="Slide">
-                        <div class="caption-group">
-                            <h2 class="caption title">
-                                by one, get one <span class="primary">50% <strong>off</strong></span>
-                            </h2>
-                            <h4 class="caption subtitle">school supplies & backpacks.*</h4>
-                            <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                        </div>
+                   
+                    <li>
+                        <img src="/res/site/img/slide3.jpg" alt="Slide">
                     </li>
+
+                    <li><img src="/res/site/img/pneu.jpg" alt="Slide">
+                        <div class="caption-group">
+                            <h1>
+                            <span class="primary">PROMOÇÃO <strong>4</strong> PNEUS</span>
+                            </h1>
+                            <h3> <span class="primary"> <strong>569,99 Reais </strong> </h3> </span>
+                            <h4 class="caption subtitle">Aro 15, <strong> Goodyear </strong> </h4>
+                            <a class="caption button-radius" href="/cart/14/add"><span class="icon"></span>Comprar</a>
+                        </div>
+                    <!-- </li>
                     <li><img src="/res/site/img/h4-slide3.png" alt="Slide">
                         <div class="caption-group">
                             <h2 class="caption title">
@@ -39,7 +38,7 @@
                             <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
                         </div>
                     </li>
-                </ul>
+                </ul> -->
             </div>
             <!-- ./Slider -->
     </div> <!-- End slider area -->
@@ -85,6 +84,7 @@
                         <h2 class="section-title">Produtos</h2>
                         <div class="product-carousel">
                             <?php $counter1=-1;  if( isset($products) && ( is_array($products) || $products instanceof Traversable ) && sizeof($products) ) foreach( $products as $key1 => $value1 ){ $counter1++; ?>
+
                             <div class="single-product">
                                 <div class="product-f-image">
                                     <img src="<?php echo htmlspecialchars( $value1["desphoto"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" alt="">
@@ -101,6 +101,7 @@
                                 </div> 
                             </div>
                             <?php } ?>
+
                         </div>
                     </div>
                 </div>
@@ -108,6 +109,8 @@
         </div>
     </div> <!-- End main content area -->
     
+
+    <!--
     <div class="brands-area">
         <div class="zigzag-bottom"></div>
         <div class="container">
@@ -128,4 +131,4 @@
                 </div>
             </div>
         </div>
-    </div> <!-- End brands area -->
+    </div> <!-- End brands area --> 
