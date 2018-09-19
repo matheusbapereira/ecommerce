@@ -1,1 +1,1 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?><li><a href="/categories/6">Produtos</a></li><li><a href="/categories/4">Retrovisores</a></li><li><a href="/categories/5">Travas Eletricas</a></li>
+<?php if(!class_exists('Rain\Tpl')){exit;}?><li><a href="/categories/6">Farol</a></li><li><a href="/categories/5">Pneus</a></li>
