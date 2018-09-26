@@ -15,30 +15,11 @@
                             <h1>
                             <span class="primary">PROMOÇÃO <strong>4</strong> PNEUS</span>
                             </h1>
-                            <h3> <span class="primary"> <strong>569,99 Reais </strong> </h3> </span>
+                            <h3> <span class="primary"> <strong>599,99 Reais </strong> </h3> </span>
                             <h4 class="caption subtitle">Aro 15, <strong> Goodyear </strong> </h4>
-                            <a class="caption button-radius" href="/cart/16/add"><span class="icon"></span>Comprar</a>
+                            <a class="caption button-radius" href="/cart/27/add"><span class="icon"></span>Comprar</a>
                         </div>
-                    <!-- </li>
-                    <li><img src="/res/site/img/h4-slide3.png" alt="Slide">
-                        <div class="caption-group">
-                            <h2 class="caption title">
-                                Apple <span class="primary">Store <strong>Ipod</strong></span>
-                            </h2>
-                            <h4 class="caption subtitle">Select Item</h4>
-                            <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                        </div>
-                    </li>
-                    <li><img src="/res/site/img/h4-slide4.png" alt="Slide">
-                        <div class="caption-group">
-                          <h2 class="caption title">
-                                Apple <span class="primary">Store <strong>Ipod</strong></span>
-                            </h2>
-                            <h4 class="caption subtitle">& Phone</h4>
-                            <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                        </div>
-                    </li>
-                </ul> -->
+
             </div>
             <!-- ./Slider -->
     </div> <!-- End slider area -->

@@ -384,7 +384,7 @@
           <div class="content">
             <span class="brand">
               <a href="#">
-                Hcode Store
+                M&M Automotivas
               </a>
             </span>
           </div>
@@ -446,17 +446,7 @@
       </tr>
     </table>
 
-    <table class="footer-wrap w320 full-width-gmail-android" bgcolor="#e5e5e5">
-      <tr>
-        <td></td>
-        <td class="container">
-          <div class="content footer-lead">
-            <a href="#"><b>Get in touch</b></a> if you have any questions or feedback
-          </div>
-        </td>
-        <td></td>
-      </tr>
-    </table>
+
     <table class="footer-wrap w320 full-width-gmail-android" bgcolor="#e5e5e5">
       <tr>
         <td></td>

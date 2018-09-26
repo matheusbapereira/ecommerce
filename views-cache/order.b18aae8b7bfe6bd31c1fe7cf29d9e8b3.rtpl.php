@@ -4,6 +4,7 @@
     <section class="content-header">
     <h1>
         Pedido N°<?php echo htmlspecialchars( $order["idorder"], ENT_COMPAT, 'UTF-8', FALSE ); ?>
+
     </h1>
     <ol class="breadcrumb">
         <li><a href="/admin"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -17,7 +18,7 @@
         <div class="row">
             <div class="col-xs-12">
             <h2 class="page-header">
-                <img src="/res/site/img/logo.png" alt="Logo">
+                <img src="/res/site/img/logo2.png" alt="Logo">
                 <small class="pull-right">Date: <?php echo date('d/m/Y'); ?></small>
             </h2>
             </div>
@@ -28,11 +29,11 @@
             <div class="col-sm-4 invoice-col">
             De
             <address>
-                <strong>HCODE</strong><br>
-                Rua Ademar Saraiva Leão, 234 - Alvarenga<br>
-                São Bernardo do Campo - SP<br>
-                Telefone: (11) 3171-3080<br>
-                E-mail: suporte@hcode.com.br
+                <strong>M&M Automotivas</strong><br>
+                Rua Romeu Alves De Freitas, 204 <br>
+                Miguelópolis - SP<br>
+                Telefone: (16) 99328-2517<br>
+                E-mail: matheusbatistaap@hotmail.com
             </address>
             </div>
             <!-- /.col -->
@@ -43,7 +44,9 @@
                 <?php echo htmlspecialchars( $order["desaddress"], ENT_COMPAT, 'UTF-8', FALSE ); ?>, <?php echo htmlspecialchars( $order["descomplement"], ENT_COMPAT, 'UTF-8', FALSE ); ?><br>
                 <?php echo htmlspecialchars( $order["descity"], ENT_COMPAT, 'UTF-8', FALSE ); ?> - <?php echo htmlspecialchars( $order["desstate"], ENT_COMPAT, 'UTF-8', FALSE ); ?><br>
                 <?php if( $order["nrphone"] && $order["nrphone"]!='0' ){ ?>Telefone: <?php echo htmlspecialchars( $order["nrphone"], ENT_COMPAT, 'UTF-8', FALSE ); ?><br><?php } ?>
+
                 E-mail: <?php echo htmlspecialchars( $order["desemail"], ENT_COMPAT, 'UTF-8', FALSE ); ?>
+
             </address>
             </div>
             <!-- /.col -->
@@ -52,6 +55,7 @@
             <br>
             <b>Emitido em:</b> <?php echo formatDate($order["dtregister"]); ?><br>
             <b>Pago em:</b> <?php echo formatDate($order["dtregister"]); ?>
+
             </div>
             <!-- /.col -->
         </div>
@@ -71,6 +75,7 @@
                 </thead>
                 <tbody>
                 <?php $counter1=-1;  if( isset($products) && ( is_array($products) || $products instanceof Traversable ) && sizeof($products) ) foreach( $products as $key1 => $value1 ){ $counter1++; ?>
+
                 <tr>
                     <td><?php echo htmlspecialchars( $value1["nrqtd"], ENT_COMPAT, 'UTF-8', FALSE ); ?></td>
                     <td><?php echo htmlspecialchars( $value1["desproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?></td>
@@ -78,6 +83,7 @@
                     <td>R$<?php echo formatPrice($order["vltotal"]); ?></td>
                 </tr>
                 <?php } ?>
+
                 </tbody>
             </table>
             </div>
