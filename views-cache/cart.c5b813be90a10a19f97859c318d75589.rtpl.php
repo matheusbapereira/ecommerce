@@ -80,7 +80,7 @@
 
                             <div class="cart-collaterals">
 
-                               <!--  <div class="cross-sells">
+                                 <div class="cross-sells">
 
                                     <h2>Cálculo de Frete</h2>
                                     
@@ -90,7 +90,7 @@
                                         <input type="submit" formmethod="post" formaction="/cart/freight" value="CÁLCULAR" class="button">
                                     </div>
 
-                                </div> -->
+                                </div> 
 
                                 <div class="cart_totals ">
 
@@ -103,10 +103,10 @@
                                                 <td><span class="amount">R$<?php echo formatPrice($cart["vlsubtotal"]); ?></span></td>
                                             </tr>
 
-                                           <!-- <tr class="shipping">
+                                          <tr class="shipping">
                                                 <th>Frete</th>
                                                 <td>R$<?php echo formatPrice($cart["vlfreight"]); ?><?php if( $cart["nrdays"] > 0 ){ ?> <small>prazo de <?php echo htmlspecialchars( $cart["nrdays"], ENT_COMPAT, 'UTF-8', FALSE ); ?> dia(s)</small><?php } ?></td>
-                                            </tr> -->
+                                            </tr>
 
                                             <tr class="order-total">
                                                 <th>Total</th>
