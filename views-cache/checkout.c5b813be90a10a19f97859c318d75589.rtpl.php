@@ -1,4 +1,5 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?>
+
 <div class="product-big-title-area">
 	<div class="container">
 		<div class="row">
@@ -22,18 +23,21 @@
 								<div class="col-md-12">
 
 									<?php if( $error != '' ){ ?>
+
 									<div class="alert alert-danger">
 										<?php echo htmlspecialchars( $error, ENT_COMPAT, 'UTF-8', FALSE ); ?>
+
 									</div>
 									<?php } ?>
+
 
 									<div class="woocommerce-billing-fields">
 										<h3>Endereço de entrega</h3>
 										<p id="billing_address_1_field" class="form-row form-row-wide address-field validate-required">
-											<label class="" for="billing_cep_1">Cep <abbr title="required" class="required">*</abbr>
-											</label>
-											<input type="text" value="<?php echo htmlspecialchars( $cart["deszipcode"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" placeholder="00000-000" id="billing_cep_1" name="zipcode" class="input-text ">
-											<input type="submit" value="Atualizar CEP" id="place_order" class="button alt" formaction="/checkout" formmethod="get">
+											 <!--<label class="" for="billing_cep_1">Cep <abbr title="required" class="required">*</abbr>
+											</label> 											<input type="text" value="<?php echo htmlspecialchars( $cart["deszipcode"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" placeholder="00000-000" id="billing_cep_1" name="zipcode" class="input-text ">
+											<input type="submit" value="Atualizar CEP" id="place_order" class="button alt" formaction="/checkout" formmethod="get"> -->
+
 										</p>
 										<div class="row">
 											<div class="col-sm-9">
@@ -84,6 +88,7 @@
 												</thead>
 												<tbody>
                                                     <?php $counter1=-1;  if( isset($products) && ( is_array($products) || $products instanceof Traversable ) && sizeof($products) ) foreach( $products as $key1 => $value1 ){ $counter1++; ?>
+
 													<tr class="cart_item">
 														<td class="product-name">
 															<?php echo htmlspecialchars( $value1["desproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?> <strong class="product-quantity">× <?php echo htmlspecialchars( $value1["nrqtd"], ENT_COMPAT, 'UTF-8', FALSE ); ?></strong> 
@@ -93,6 +98,7 @@
 														</td>
                                                     </tr>
                                                     <?php } ?>
+
 												</tbody>
 												<tfoot>
 													<tr class="cart-subtotal">
@@ -101,11 +107,12 @@
 														</td>
 													</tr>
 													<tr class="shipping">
-														<th>Frete</th>
+														<!-- <th>Frete</th>
 														<td>
 															R$<?php echo formatPrice($cart["vlfreight"]); ?>
+
 															<input type="hidden" class="shipping_method" value="free_shipping" id="shipping_method_0" data-index="0" name="shipping_method[0]">
-														</td>
+														</td> -->
 													</tr>
 													<tr class="order-total">
 														<th>Total do Pedido</th>

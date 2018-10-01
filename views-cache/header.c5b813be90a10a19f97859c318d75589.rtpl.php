@@ -64,6 +64,7 @@
     </div> <!-- End header area -->
     
     <div class="site-branding-area">
+                  
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -97,6 +98,9 @@
                         <li class="active"><a href="/">Home</a></li>
                         <li><a href="/categories/7">Produtos</a></li>
                         <li><a href="/cart">Carrinho</a></li>
+                        <li> 
+
+
                     </ul>
                 </div>  
             </div>
