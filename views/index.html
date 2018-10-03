@@ -13,11 +13,12 @@
                     <li><img src="/res/site/img/pneu.jpg" alt="Slide">
                         <div class="caption-group">
                             <h1>
-                            <span class="primary">PROMOÇÃO <strong>4</strong> PNEUS</span>
+                            <span class="primary">PROMOÇÃO <strong>4</strong> PNEUS ARO 15</span>
                             </h1>
-                            <h3> <span class="primary"> <strong>599,99 Reais </strong> </h3> </span>
-                            <h4 class="caption subtitle">Aro 15, <strong> Goodyear </strong> </h4>
-                            <a class="caption button-radius" href="/cart/27/add"><span class="icon"></span>Comprar</a>
+                            <h4 class="active">De 949,99, <strong> Por </strong> </h4>
+                            <h3> <span class="primary"> <strong>849,99 Reais </strong> </h3> </span>
+                            <h4 class="active"><strong> Goodyear </strong> </h4>
+                            <a class="active button-radius" href="/cart/37/add"><span class="icon"></span>Comprar</a>
                         </div>
 
             </div>

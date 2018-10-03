@@ -6,9 +6,9 @@
                     <div class="footer-about-us">
                     
                         <div class="footer-social">
-                            <a href="https://www.facebook.com/hcodebr" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/hcodebr" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.youtube.com/channel/UCjWENuSH2gX55-y7QSZiWxA" target="_blank"><i class="fa fa-youtube"></i></a>
+                            <a href="https://www.facebook.com/aUnifran/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.youtube.com.br" target="_blank"><i class="fa fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -17,9 +17,9 @@
                     <div class="footer-menu">
                         <h2 class="footer-wid-title">Navegação </h2>
                         <ul>
-                            <li><a href="#">Minha Conta</a></li>
-                            <li><a href="#">Meus Pedidos</a></li>
-                            <li><a href="#">Lista de Desejos</a></li>
+                            <li><a href="/profile">Minha Conta</a></li>
+                            <li><a href="/profile/orders">Meus Pedidos</a></li>
+                            
                         </ul>                        
                     </div>
                 </div>
@@ -34,18 +34,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-newsletter">
-                        <h2 class="footer-wid-title">Newsletter</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus!</p>
-                        <div class="newsletter-form">
-                            <form action="#">
-                                <input type="email" placeholder="Type your email">
-                                <input type="submit" value="Subscribe">
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    
             </div>
         </div>
     </div> <!-- End footer top area -->
@@ -55,7 +44,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>&copy; 2017 Hcode Treinamentos. <a href="http://www.hcode.com.br" target="_blank">hcode.com.br</a></p>
+                        <p>&copy; 2018 M&M Automotivas. <a href="http://www.memautomotivas.com.br" target="_blank">memautomotivas.com.br</a></p>
                     </div>
                 </div>
                 
